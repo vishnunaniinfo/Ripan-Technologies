@@ -36,8 +36,7 @@ Then, open `http://localhost:8000` in your browser.
 
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/87c35be5-20d3-44ce-ab88-1108693ce41e)
-
-
+here u can see the output of my project click this link    :      https://drive.google.com/file/d/1zjDzgONdXSz_kewW0XTcZAuB7Om-ygte/view?usp=drivesdk
 ## 📩 Contact
 Developed by **Vishnu Vardhan Burri** ([@vishnunaniinfo](https://github.com/vishnunaniinfo))
 
