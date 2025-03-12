@@ -1,49 +1,86 @@
-# Whack-A-Mole Mania
+# 🎯 Whack-A-Mole Mania
 
-Welcome to **Whack-A-Mole Mania!** 🎯 A fun and interactive web game where you try to hit as many moles as possible before the timer runs out.
+![Whack-A-Mole](https://your-image-link.com)
+
+## 📌 About the Project
+Whack-A-Mole Mania is a fun and interactive browser game where players test their reflexes by clicking on moles that pop up randomly. Built using modern web technologies, this game ensures an engaging experience with animations, sound effects, and score tracking.
 
 ## 🚀 Features
-- Simple and engaging gameplay
-- Score tracking
-- Smooth animations with jQuery
-- Responsive design
+- 🕹️ Interactive gameplay with increasing difficulty
+- 🎨 Smooth animations and engaging UI/UX
+- 🔊 Sound effects for better user experience
+- 📊 Score tracking and game-over logic
+- 📱 Responsive design for all screen sizes
 
-## 🛠️ How to Run the Project
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (Vanilla JS)
+- **Game Logic:** JavaScript Event Handling, setTimeout, setInterval
 
-Follow these steps to run the game locally:
+## 🎮 How to Play
+1. Click on the moles as they appear on the screen.
+2. Each successful click increases your score.
+3. Avoid clicking on empty spaces!
+4. The game gets harder as you progress.
+5. Compete for the highest score!
 
-### 1️⃣ Clone the Repository
+## 📥 Installation
 ```bash
-git clone https://github.com/vishnunaniinfo/whack-a-mole.git
+git clone https://github.com/vishnunaniinfo/Whack-A-Mole-Mania.git
+cd Whack-A-Mole-Mania
+open index.html
 ```
 
-### 2️⃣ Navigate to the Project Directory
+## 🤝 Contribution
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+## 📜 License
+This project is open-source and available under the MIT License.
+
+## 🔗 Connect with Me
+- GitHub: [@vishnunaniinfo](https://github.com/vishnunaniinfo)
+- LinkedIn: [Your Profile](https://www.linkedin.com/in/your-profile)
+
+
+# 📜 Personal Recipe Management App
+
+![Recipe Management]
+
+## 🍽️ About the Project
+The **Personal Recipe Management App** is a web-based application designed to help users store, organize, and manage their favorite recipes. Users can add, edit, delete, and search for recipes efficiently.
+
+## 🚀 Features
+- 📖 Add, update, and delete recipes
+- 🔍 Search for recipes by ingredients or name
+- 🖼️ Upload images for each recipe
+- 📊 Categorization of recipes for easy access
+- 📱 Mobile-friendly design for on-the-go access
+
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (React)
+- **Backend:** Django (Python) / Node.js (Express)
+- **Database:** PostgreSQL / MongoDB
+
+## 🎯 How to Use
+1. **Sign Up/Login** to your account.
+2. **Add New Recipes** with ingredients, steps, and images.
+3. **Search & Filter** recipes by name or ingredients.
+4. **Edit or Delete** recipes as needed.
+5. **Enjoy Cooking!** 🍳🥗
+
+## 📥 Installation
 ```bash
-cd whack-a-mole
+git clone https://github.com/vishnunaniinfo/Recipe-Management-App.git
+cd Recipe-Management-App
+npm install  # (for React frontend)
+python manage.py runserver  # (for Django backend)
 ```
 
-### 3️⃣ Open the `index.html` File
-Simply open the `index.html` file in your favorite browser.
+## 🤝 Contribution
+Want to contribute? Feel free to fork the repo and submit a pull request!
 
-Alternatively, you can start a local server:
+## 📜 License
+This project is open-source and available under the MIT License.
 
-#### Using Python (Optional)
-```bash
-# For Python 3.x
-python -m http.server
-```
-Then, open `http://localhost:8000` in your browser.
-
-## 📸 Screenshots
-![image](https://github.com/user-attachments/assets/87c35be5-20d3-44ce-ab88-1108693ce41e)
-here u can see the output of my project click this link    :      https://drive.google.com/file/d/1zjDzgONdXSz_kewW0XTcZAuB7Om-ygte/view?usp=drivesdk
-## 📩 Contact
-Developed by **Vishnu Vardhan Burri** ([@vishnunaniinfo](https://github.com/vishnunaniinfo))
-
-For any issues or suggestions, feel free to reach out:
-- 📧 Email: [vishnunanihub@gmail.com](mailto:vishnunanihub@gmail.com)
-- 🔗 LinkedIn: [Vishnu Vardhan Burri](https://www.linkedin.com/in/vishnu-vardhan-burri-3a684a280/)
-
-Enjoy the game! 🎉
-
-# Whack-a-Mole-Mania
+## 🔗 Connect with Me
+- GitHub: [@vishnunaniinfo](https://github.com/vishnunaniinfo)
+- LinkedIn: [Your Profile](https://www.linkedin.com/in/your-profile)
