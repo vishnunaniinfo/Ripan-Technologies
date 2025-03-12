@@ -1,0 +1,124 @@
+/* Global styling for the recipe list container */
+.recipe-list-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  border-radius: 12px; /* Increased border radius for a smoother look */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  max-width: 800px;
+  /* backdrop-filter: blur(10px); Blur effect for background content */
+  animation: fadeIn 1s ease-in-out; /* Fade-in effect */
+}
+
+/* Heading styling */
+.recipe-list-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1976d2;
+  font-size: 24px;
+  animation: slideInDown 1s ease-in-out; /* Slide-in effect for heading */
+}
+
+/* Sort options styling */
+.sort-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.sort-options label {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.sort-options select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+.sort-options select:hover {
+  border-color: #1976d2; /* Highlight border on hover */
+}
+
+/* Button styling */
+.surprise-button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.75rem 1.5rem;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+}
+
+.surprise-button:hover {
+  background-color: #115293;
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Recipe list styling */
+.recipe-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: fadeInUp 1s ease-in-out; /* Fade-in and slide-up effect for list */
+}
+
+/* Individual recipe item styling */
+.recipe-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+}
+
+.recipe-item:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.02); /* Slightly enlarge item on hover */
+}
+
+.recipe-item.selected {
+  background-color: #e3f2fd;
+  border-color: #90caf9;
+}
+
+/* Recipe title styling */
+.recipe-title {
+  font-weight: bold;
+}
+
+/* Delete icon styling */
+.delete-icon {
+  color: #f44336;
+  cursor: pointer;
+  transition: transform 0.3s; /* Smooth transition for transform */
+}
+
+.delete-icon:hover {
+  transform: rotate(20deg); /* Rotate icon on hover */
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInDown {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

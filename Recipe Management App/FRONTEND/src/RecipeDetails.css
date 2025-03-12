@@ -1,0 +1,66 @@
+/* Container styling */
+.recipe-details-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  padding: 2rem;
+  border-radius: 12px; /* Increased border radius for a smoother look */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  max-width: 600px;
+  margin: 2rem auto;
+  position: relative;
+  -webkit-backdrop-filter: blur(10px); /* Blur effect for background content on Safari */
+  backdrop-filter: blur(10px); /* Blur effect for background content */
+  animation: fadeIn 1s ease-in-out; /* Fade-in effect */
+}
+
+/* Close button styling */
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s; /* Smooth transition for transform and color */
+}
+
+.close-btn:hover {
+  transform: rotate(90deg); /* Rotate button on hover */
+  color: #f44336; /* Change color on hover */
+}
+
+.close-icon {
+  color: #888;
+}
+
+/* Recipe section styling */
+.recipe-section {
+  margin-top: 1.5rem;
+  animation: slideInUp 1s ease-in-out; /* Slide-in effect for sections */
+}
+
+/* Instructions styling */
+.recipe-instructions {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+}
+
+.recipe-instructions li {
+  margin-bottom: 0.5rem;
+  animation: fadeInLeft 0.5s ease-in-out; /* Fade-in effect for list items */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInLeft {
+  from { transform: translateX(-20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
